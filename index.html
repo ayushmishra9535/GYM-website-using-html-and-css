@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush fitness</title>
+    <style>
+        body {
+            color: cornsilk;
+            margin: 0px 0px;
+            padding: 0px;
+            background: url(img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+
+        }
+
+        .header {
+
+            /* border: 4px solid brown; */
+            margin: auto;
+            display: block;
+            width: 40%;
+            padding: 0px 10px;
+            margin: -7px 441px;
+
+        }
+
+        .heading {
+            color: rgb(204 173 173);
+            /* font-weight: bold; */
+
+            font-family: 'Brush Script MT', cursive;
+            font-size: 30px;
+            /* font-weight: bold; */
+
+        }
+
+        .left {
+
+            /* border: 3px solid brown; */
+            position: absolute;
+            top: 15px;
+            left: 10px;
+            background-image: url(img/logo.png);
+            background-size: 155px 62px;
+            padding: 31px 77px;
+            margin: 17px;
+            background-repeat: no-repeat;
+            /* image-rendering :crisp-edges; */
+            /* opacity: 1.0; */
+            border-radius: 27px;
+            filter: invert(100%);
+        }
+
+        .mid {
+
+            /* border: 4px solid brown; */
+            margin: -18px 275px;
+            display: block;
+            width: 882px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin: 3px 76px;
+            padding: 0px 0px;
+        }
+
+        .navbar li a {
+            color: rgb(228 228 228);
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+
+        }
+
+        .right {
+
+            /* border: 4px solid brown; */
+            position: absolute;
+            top: 42px;
+            right: 0px;
+            border-radius: 6px;
+
+        }
+
+        #search {
+
+            color: grey;
+            border-radius: 10px;
+
+            outline: none;
+        }
+
+        .form {
+            /* border: 4px solid red; */
+            /* display: inline-block; */
+            margin: 65px 408px;
+            width: 45%;
+            padding: 108px 20px;
+            float: left;
+
+        }
+
+        .btn input:hover {
+            color: rgb(5, 1, 1);
+        }
+
+        .join {
+            text-align: center;
+            color: #9b3bb3;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 50px;
+            padding: 0px 0px;
+            margin: -130px 0px ;
+            animation:blinking 2s infinite;}
+        
+            @keyframes blinking {
+                0% {
+                    color: red;
+                }
+
+                47% {
+                    color: #000;
+                }
+
+                62% {
+                    color: transparent;
+                }
+
+                97% {
+                    color: transparent;
+                }
+
+                100% {
+                    color: #000;
+                }
+            }
+        
+
+        .formdata {
+            margin: 146px 0px;
+        }
+
+        .formdata input {
+            /* border: 4px solid brown; */
+            border-radius: 32px;
+            line-height: 0px;
+            text-align: center;
+            display: block;
+            padding: 7px 0px;
+            margin: 16px 0px;
+            width: 96%;
+            outline: none;
+
+        }
+
+        .dob {
+            text-align: center;
+            /* border: 4px solid crimson; */
+            display: block;
+            margin: -147px 0px;
+            padding: 13px 168px;
+            width: 40%;
+        }
+
+
+        .gender {
+            text-align: center;
+            /* border: 4px solid crimson; */
+            display: block;
+            margin: 134px 0px;
+            padding: 11px 185px;
+            width: 34%;
+        }
+
+        .checkbox {
+
+            text-align: center;
+            /* border: 4px solid crimson; */
+            display: block;
+            margin: -143px 0px;
+            padding: 11px 97px;
+            width: 63%;
+
+        }
+
+        .btn input {
+            background-color: transparent;
+            font-size: 24px;
+            color: rgb(230, 230, 230);
+
+        }
+
+        .btn {
+            text-align: center;
+            /* border: 4px solid crimson; */
+            display: block;
+            margin: 135px 0px;
+
+            padding: 37px 97px;
+            width: 63%;
+        }
+
+        .footer {
+            /* border: 4px solid brown; */
+text-align: center;
+            display: inline-block;
+            bottom: 0px;
+            /* position:fixed; */
+            width: 99.5%;
+/* background-attachment: scroll; */
+padding: 0px 0px;
+margin: 0px 0px;
+
+        }
+        .fleft{
+            color: rgb(204 173 173);
+float:left
+        }
+        .fleft a{
+            color: rgb(218, 211, 224);
+            text-decoration: none;
+        }
+        .fleft a:hover{
+            color: gray;
+        }
+        .fright{
+            float: right;
+            color: rgb(204 173 173);
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <header class="header">
+        <div class="heading">
+            <h3>We welcome you to our fitness community!!!!</h3>
+        </div>
+
+    </header>
+    <div class="left">
+
+
+    </div>
+    <div class="mid">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Trainers</a>
+                </li>
+                <li><a href="#">Centers</a></li>
+                <li>
+                    <a href="#">Galerymania</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+    <div class="right">
+        <input type="text" name="search" id="search" placeholder="search">
+
+    </div>
+    <div class="form">
+        <div class="join">Join Us Now...!!!!!</div>
+        <form action="backend.php">
+            <div class="formdata">
+                <div>
+
+                    <input type="text" placeholder="Name">
+                </div>
+                <div>
+
+                    <input type="number" name="age" placeholder="Age">
+                </div>
+                <div><input type="number" name="search" placeholder="Mobile number"></div>
+                <div><input type="email" name="a" placeholder="Mail"></div>
+            </div>
+            <div class="dob">
+                <div>Date of birth: <input type="date" name="search" placeholder="DOB"></div>
+            </div>
+
+            <div class="gender">
+                <div> Gender: male<input type="radio" name="search" placeholder="search">female<input type="radio"
+                        name="search" placeholder="search"></div>
+            </div>
+
+            <div class="checkbox">
+                <div><input type="checkbox" name="search" placeholder="agree"> I have agree the term and condition of
+                    ayush fitness.</div>
+            </div>
+            <div class="btn">
+                <div><input type="submit" name="search" placeholder="SUBMIT">
+                    <input type="reset" name="search" placeholder="Reset">
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+    <footer class="footer">
+        <Address><div class="fleft">Gym Owner <a href="https://www.linkedin.com/in/ayush-mishra-7a7650198/">Ayush Mishra</a><br></div>
+            <div class="fright"> Visit us at<br>
+            HNO-316B bhasaratpur <br>Medical Road ,Gorakhpur</div>
+        </Address>
+    </footer>
+</body>
+
+</html>
